@@ -1,0 +1,594 @@
+
+
+/* ESTILO GERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+      .poppins-thin {
+        font-family: "Poppins", serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+
+      .poppins-extralight {
+        font-family: "Poppins", serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+
+      .poppins-light {
+        font-family: "Poppins", serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+
+      .poppins-regular {
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .poppins-medium {
+        font-family: "Poppins", serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+
+      .poppins-semibold {
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+
+      .poppins-bold {
+        font-family: "Poppins", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      .poppins-extrabold {
+        font-family: "Poppins", serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+
+      .poppins-black {
+        font-family: "Poppins", serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+
+      .poppins-thin-italic {
+        font-family: "Poppins", serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+
+      .poppins-extralight-italic {
+        font-family: "Poppins", serif;
+        font-weight: 200;
+        font-style: italic;
+      }
+
+      .poppins-light-italic {
+        font-family: "Poppins", serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+
+      .poppins-regular-italic {
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+
+      .poppins-medium-italic {
+        font-family: "Poppins", serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+
+      .poppins-semibold-italic {
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-style: italic;
+      }
+
+      .poppins-bold-italic {
+        font-family: "Poppins", serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+
+      .poppins-extrabold-italic {
+        font-family: "Poppins", serif;
+        font-weight: 800;
+        font-style: italic;
+      }
+
+      .poppins-black-italic {
+        font-family: "Poppins", serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+
+
+body{
+    background-color: black;
+    height: 100vh;
+    font-family: "Poppins", serif;
+}   
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+}
+
+.btn-contato button{
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color:blueviolet;
+  border:0;
+  border-radius:30px;
+  cursor:pointer;
+  color: rgb(255, 255, 255);
+  transition: .2s;
+}
+
+h1.titulo{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+span.traço{
+  color: blueviolet;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+}
+/* ESTILO DO CABEÇALHO */
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 22px;
+    display: inline-block;
+    transition: .2s;
+}
+
+header .logo img{
+  border-radius: 100%;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.582);
+}
+
+header a:hover{
+    color:blueviolet;
+    transform: scale(1.1);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 10px blueviolet;
+    transform: scale(1.1);
+}
+
+header{
+  position: fixed;
+  top: 0; 
+  width: 100%;  
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.637);
+}
+
+
+/* TOPO DO SITE */
+
+section.topo-do-site{
+  padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.topo-do-site h1{
+  color: white;
+  font-size: 80px;
+  line-height: 65px;
+  margin: 40px 0;
+}
+
+.topo-do-site .txt-topo-site p{
+  color: rgb(190, 190, 190);
+  margin: 10px 0;
+  font-size: 27px;
+}
+
+.topo-do-site .txt-topo-site p1{
+  color: rgb(255, 255, 255);
+  margin: 40px 0;
+  font-size: 35px;
+}
+
+.topo-do-site .txt-topo-site p span{
+  color: blueviolet;
+}
+
+.topo-do-site .img-topo-site img{
+  position: relative;
+  animation: spin 30s linear infinite;
+  border-radius: 50%;
+  box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.582);
+}
+
+
+.topo-do-site .btn-contato{
+  margin: 40px 0;
+}
+
+.topo-do-site{
+  position: relative;
+  top: 100px;
+}
+
+@keyframes spin{
+  
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+
+}
+
+/* Quem somos */
+
+section.quem-somos{
+  padding:40px 0;
+  margin-top: 60px;
+}
+
+section.quem-somos .flex{
+  gap: 60px;
+}
+
+.quem-somos h2{
+  color: rgb(190, 190, 190);
+  padding: 25px 25%;
+  text-align: center;
+  
+}
+
+.quem-somos .quem-somos-box{
+  color: rgb(190, 190, 190);
+  padding: 40px 0;
+  margin: 50px 0;
+  transition: .2s;
+}
+
+.quem-somos .quem-somos-box:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 50px rgb(137, 43, 226);
+  border-radius: 20px;
+}
+
+.quem-somos .quem-somos-box i{
+  font-size: 70px;
+  color: blueviolet;
+  margin: 15px 20px;
+}
+
+.quem-somos .quem-somos-box h3{
+  font-size: 35px;
+  margin: 15px 20px;
+  color: white;
+}
+
+.quem-somos .quem-somos-box p{
+  font-size: 20px;
+  margin: 15px 20px;
+}
+
+/* Serviços */
+
+
+.serviços h2{
+  color: rgb(190, 190, 190);
+  padding: 25px 30%;
+  text-align: center;
+}
+
+section.serviços{
+  padding:40px 0
+}
+
+section.serviços .flex{
+  gap: 60px;
+}
+
+.serviços .serviços-box{
+  color: white;
+  padding: 40px 0;
+  margin: 20px 0;
+  border: 2px solid rgb(110, 110, 110);
+  border-radius: 20px;
+  text-align: center;
+  
+}
+
+.serviços .serviços-box i{
+  font-size: 70px;
+  color: white;
+  margin: 15px 0px;
+  border-top: 45px solid rgba(255, 255, 255, 0);
+  border-bottom: 280px solid rgba(255, 255, 255, 0);
+  border-left: 155px solid rgba(255, 255, 255, 0);
+  border-right: 155px solid rgba(255, 255, 255, 0);
+}
+
+.serviços .serviços-box:hover{
+  border-color: blueviolet;
+}
+
+.serviços .serviços-box .icon:hover{
+  color: blueviolet;
+}
+
+
+
+.serviços .serviços-box h3{
+  font-size: 35px;
+  margin: 10px 0;
+}
+
+.serviços .serviços-box p{
+  font-size: 20px;
+  margin: 15px 20px;
+  color: rgb(190, 190, 190);
+}
+
+/* PORTIFOLIO */
+
+.portifolio h2{
+  color: rgb(190, 190, 190);
+  padding: 10px 30%;
+  text-align: center;
+}
+
+section.portifolio{
+  padding: 80px 4%;
+}
+
+section.portifolio .flex{
+  justify-content: space-around;
+
+}
+
+.img-port{
+  margin-top: 40px;
+  width: 360px;
+  height: 460px;
+  background-size: cover;
+  background-position: 100% 0%;
+  transition: 12s;
+  cursor: pointer;
+  border-radius: 40px;
+  border: 1px solid gray;
+  position: relative;
+}
+
+.img-port:hover{
+  background-position: 100% 100%;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.493);
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600  ;
+  color: white;
+  opacity: 0;
+  transition: .75s;
+}
+
+.overlay:hover{
+  opacity: 1;
+}
+
+
+/* Portifólio 2 */
+
+section.portifolio2{
+  padding: 0 4%;
+  padding-bottom: 40px;
+}
+
+section.portifolio2 .flex{
+  justify-content: space-around;
+}
+
+.img-port2{
+  width: 370px;   
+  height: 210px;
+  background-size: cover;
+  border-radius: 40px;
+  border: 1px solid gray;
+  cursor: pointer;
+  position: relative;
+}
+
+.overlay2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 370px;
+  height: 210px;
+  background-color: rgba(128, 128, 128, 0.493);
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600  ;
+  color: white;
+  opacity: 0;
+  transition: .75s;
+}
+
+.overlay2:hover{
+  opacity: 1;
+}
+
+
+
+/* Rodapé 2 */
+
+.rodah2 h2{
+  color: rgb(190, 190, 190);
+  padding: 15px 25%;
+  text-align: center;
+  
+}
+
+footer .flex{
+  padding: 30px 4%;
+  justify-content: end;
+  gap: 20px;
+}
+
+footer img{
+  margin: 0 820px;
+  border-radius: 100%;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.582);
+}
+
+footer button{
+  font-size: 52px;
+  background-color: blueviolet;
+  border-radius: 50%;
+  border: none;
+  width: 80px;  
+  height: 80px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+footer button:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px blueviolet;
+}
+
+.borda{
+  border-top: 3px solid blueviolet;
+}
+
+footer .line-footer p{
+  color: rgb(190, 190, 190);
+  padding: 40px 4%;
+}
+
+@media screen and (max-width: 1020px){
+  .menu-desktop, .btn-contato{
+    display: none;
+  }
+}
+
+/* Formulario */
+
+section.formulario{
+  padding: 30px 4%;
+}
+
+form{
+  max-width: 500px;
+  margin: 0 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #1a1a1a;
+  padding: 40px;
+  border-radius: 20px;
+  width: 430px;
+}
+
+form input{
+  width: 100%;
+  background-color: rgba(66, 66, 66, 0);
+  border: 1px solid;
+  border-color: #fff;
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+}
+
+form .btn-enviar{
+  margin-top: 20px;
+  text-align: center;
+}
+
+form .btn-enviar input{
+  width: 150px;
+  font-weight: 500;
+  background-color:blueviolet;
+  border:0;
+  border-radius:30px;
+  cursor:pointer;
+  color: rgb(255, 255, 255);
+  transition: .2s;
+  font-size: 25px;
+}
+
+form .btn-enviar input:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px blueviolet;
+}
+
+
+section.formulario img{
+  border-radius: 100%;
+  box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.582);
+}
